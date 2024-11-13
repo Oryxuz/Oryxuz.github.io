@@ -7,6 +7,19 @@
 <html lang = "vi">
 <head>
 	<title>Happy Birthday</title>
+	<style>
+		.video-container {
+		  position: fixed;
+		  bottom: 25%; /* Position the video 25% from the bottom */
+		  left: 50%;
+		  transform: translateX(-50%);
+		}
+	
+		.positioned-video {
+		  max-width: 100%;
+		  height: auto;
+		}
+	</style>
 	<meta charset="UTF-8" />
 	<meta name="description" content="Happy Birthday">
 	<meta name="robots" content="index, follow" />
@@ -105,8 +118,8 @@
 			</div>
 		</div>
 		<div class="row message">
-			<div class="col-md-12">
-				<video controls loop muted autoplay>
+			<div class="col-md-12 video-container">
+				<video class="positioned-video" controls loop muted autoplay>
 					<source src="anhbanh.mp4" type="video/mp4">
 					Your browser isn't invited for super fun audio time.
 				</video>
@@ -149,8 +162,8 @@
 					<button class="btn btn-primary" id="balloons_flying">Balloon</button>
 					<button class="btn btn-primary" id="cake_fadein">Cake</button>
 					<button class="btn btn-primary" id="light_candle">Candle</button>
-					<button class="btn btn-primary" id="wish_message">Anh Bảnh</button>
-					<button class="btn btn-primary" id="story">Copy code trên mạng</button>
+					<button class="btn btn-primary" id="wish_message">SKIBIDI</button>
+					<button class="btn btn-primary" id="story">Anh Bảnh</button>
 					<!--<button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
 				</div>
 			</div>
