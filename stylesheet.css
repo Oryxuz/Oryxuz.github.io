@@ -1,6 +1,6 @@
 body {
 	/*background-color: #FFDAB9;	*/
-	background-color: #00d800;
+	background-color: #000;
 	-webkit-transition:background-color linear 5s;
 	-moz-transition:background-color linear 5s;
 	-o-transition:background-color linear 5s;
@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #00D800;
+	background-color: #FFDAB9;
 	
 }
 .peach-after {
@@ -25,90 +25,90 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #00d800;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #00d800;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #00d800;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #00d800;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #00d800;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #00d800;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #00d800;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #00d800;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #00d800;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #00d800;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #00d800;
+		background-color: #FFDAB9;
 	}
 }
 
