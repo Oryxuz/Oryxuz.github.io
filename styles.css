@@ -1,0 +1,98 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: #1a1a1a; /* Dark grey card */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Profile Section */
+.profile {
+    margin-bottom: 30px;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.bio {
+    font-size: 16px;
+    color: #aaa; /* Light grey */
+    margin-bottom: 30px;
+}
+
+/* Links Section */
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+/* Button Styles */
+.button {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: block;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Button Hover Effects */
+.button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Individual Platform Colors */
+.linkedin { background-color: #0077b5; }
+.github { background-color: #333; }
+.kaggle { background-color: #20beff; }
+.twitter { background-color: #1da1f2; }
+.facebook { background-color: #1877f2; }
+.reddit { background-color: #ff4500; }
+.twitch { background-color: #6441a5; }
+.discord { background-color: #5865f2; }
+.tiktok { background-color: #010101; }
+
+/* Button Hover Colors */
+.linkedin:hover { background-color: #005582; }
+.github:hover { background-color: #111; }
+.kaggle:hover { background-color: #009bd9; }
+.twitter:hover { background-color: #0a95de; }
+.facebook:hover { background-color: #155cb0; }
+.reddit:hover { background-color: #d93600; }
+.twitch:hover { background-color: #4b3190; }
+.discord:hover { background-color: #4548cc; }
+.tiktok:hover { background-color: #333; }
